@@ -12,7 +12,7 @@ El objetivo principal es que podamos subir una serie de páginas que puedan ser 
 
 Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, idealmente [Github pages](https://docs.github.com/en/pages) pero puede ser otro lugar. 
 
-[Código de convivencia](https://github.com/sptm-unam/codigo-de-conducta/) y uso de IA. 
+Uso de IA. 
 
 ## Sesiones 
 
@@ -24,6 +24,7 @@ En la sección [Archivos](./archivos.md) reflexionaremos sobre la importancia de
 
 ## Herramientas
 
+- [Github](https://github.com/)
 - [p5.js](https://p5js.org/)
 - [Tone.js](https://tonejs.github.io/)
 - [CodePen](https://codepen.io/)
