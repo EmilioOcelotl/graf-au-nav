@@ -16,7 +16,8 @@ Uso de IA.
 
 ## Sesiones 
 
-- [ ] Sesión 1 - 30-ago-25. [Introducción](./s01/s01.md)
+- [x] Sesión 1 - 30-ago-25. [Introducción](./s01/s01.md)
+- [ ] Sesión 2 - 05-sept-25. [P5.js y librerías](./s02/s02.md)
 
 ## Archivos
 
@@ -26,5 +27,7 @@ En la sección [Archivos](./archivos.md) reflexionaremos sobre la importancia de
 
 - [Github](https://github.com/)
 - [p5.js](https://p5js.org/)
+- [https://editor.p5js.org/](https://editor.p5js.org/)
 - [Tone.js](https://tonejs.github.io/)
 - [CodePen](https://codepen.io/)
+- [Three.js](https://threejs.org/)
