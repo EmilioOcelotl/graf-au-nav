@@ -18,7 +18,7 @@ Uso de IA.
 
 - [x] Sesión 01 - 30-ago-25. [Introducción](./sesiones/s01.md)
 - [x] Sesión 02 - 06-sept-25. [P5.js y librerías](./sesiones/s02.md)
-- [ ] Sesion 03 - 13-sept-25. [Texturas y Pixeles](./sesiones/s03.md)
+- [x] Sesion 03 - 13-sept-25. [Texturas y Pixeles](./sesiones/s03.md)
 
 ## Bibliotecas
 
@@ -32,6 +32,12 @@ Uso de IA.
 - [Github](https://github.com/)
 - [https://editor.p5js.org/](https://editor.p5js.org/)
 - [CodePen](https://codepen.io/)
+
+## Pendientes
+
+- https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API/Using_the_Gamepad_API
+- https://hydra.ojack.xyz/docs/docs/learning/interactivity/midi/
+- https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API
 
 ## Archivos
 
