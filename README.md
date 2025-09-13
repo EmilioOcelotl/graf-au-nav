@@ -16,18 +16,23 @@ Uso de IA.
 
 ## Sesiones 
 
-- [x] Sesión 1 - 30-ago-25. [Introducción](./s01/s01.md)
-- [ ] Sesión 2 - 05-sept-25. [P5.js y librerías](./s02/s02.md)
+- [x] Sesión 01 - 30-ago-25. [Introducción](./sesiones/s01.md)
+- [x] Sesión 02 - 06-sept-25. [P5.js y librerías](./sesiones/s02.md)
+- [ ] Sesion 03 - 13-sept-25. [Texturas y Pixeles](./sesiones/s03.md)
 
-## Archivos
+## Bibliotecas
 
-En la sección [Archivos](./archivos.md) reflexionaremos sobre la importancia de este espacio de manera retrospectiva y con un giro a la memoria. 
+- [P5.js](https://p5js.org/)
+- [Tone.js](https://tonejs.github.io/)
+- [Hydra](https://hydra.ojack.xyz/)
+- [Three.js](https://threejs.org/)
 
 ## Herramientas
 
 - [Github](https://github.com/)
-- [p5.js](https://p5js.org/)
 - [https://editor.p5js.org/](https://editor.p5js.org/)
-- [Tone.js](https://tonejs.github.io/)
 - [CodePen](https://codepen.io/)
-- [Three.js](https://threejs.org/)
+
+## Archivos
+
+En la sección [Archivos](./archivos.md) reflexionaremos sobre la importancia de este espacio de manera retrospectiva y con un giro a la memoria. 
