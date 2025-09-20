@@ -19,6 +19,8 @@ Uso de IA.
 - [x] Sesión 01 - 30-ago-25. [Introducción](./sesiones/s01.md)
 - [x] Sesión 02 - 06-sept-25. [P5.js y librerías](./sesiones/s02.md)
 - [x] Sesion 03 - 13-sept-25. [Texturas y Pixeles](./sesiones/s03.md)
+- [ ] Sesión 04 - 20-sept-25. [Texturas y Pixeles II](./sesiones/s04.md)
+- [ ] Sesión 05 - 27-sept-25. ¿Control'
 
 ## Bibliotecas
 
