@@ -19,8 +19,8 @@ Uso de IA.
 - [x] Sesión 01 - 30-ago-25. [Introducción](./sesiones/s01.md)
 - [x] Sesión 02 - 06-sept-25. [P5.js y librerías](./sesiones/s02.md)
 - [x] Sesion 03 - 13-sept-25. [Texturas y Pixeles](./sesiones/s03.md)
-- [ ] Sesión 04 - 20-sept-25. [Texturas y Pixeles II](./sesiones/s04.md)
-- [ ] Sesión 05 - 27-sept-25. ¿Control?
+- [x] Sesión 04 - 20-sept-25. [Texturas y Pixeles II](./sesiones/s04.md)
+- [ ] Sesión 05 - 27-sept-25. ¿Control y sonido?
 
 ## Bibliotecas
 
@@ -28,6 +28,7 @@ Uso de IA.
 - [Tone.js](https://tonejs.github.io/)
 - [Hydra](https://hydra.ojack.xyz/)
 - [Three.js](https://threejs.org/)
+- [D3.js](https://d3js.org/)
 
 ## Herramientas
 
