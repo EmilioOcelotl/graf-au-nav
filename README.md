@@ -2,7 +2,7 @@
 
 El navegador como un lienzo y prácticamente como un sistema operativo. 
 
-Las sesiones serán una navegación y el navegador va a ser nuestro barco. Este curso tuvo una iteración hace algunos años. 
+Las sesiones serán una navegación y el navegador va a ser nuestro barco. 
 
 Los recursos del curso se van a concentrar en Github, el objetivo es que podamos colaborar en este espacio. Podemos hablar de alternativas como [GitLab](https://about.gitlab.com/), [0xacab](https://about.0xacab.org/) o cualquier otra cosa personalizada. 
 
@@ -12,15 +12,13 @@ El objetivo principal es que podamos subir una serie de páginas que puedan ser 
 
 Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, idealmente [Github pages](https://docs.github.com/en/pages) pero puede ser otro lugar. 
 
-Uso de IA. 
-
 ## Sesiones 
 
 - [x] Sesión 01 - 30-ago-25. [Introducción](./sesiones/s01.md)
 - [x] Sesión 02 - 06-sept-25. [P5.js y librerías](./sesiones/s02.md)
 - [x] Sesion 03 - 13-sept-25. [Texturas y Pixeles](./sesiones/s03.md)
 - [x] Sesión 04 - 20-sept-25. [Texturas y Pixeles II](./sesiones/s04.md)
-- [ ] Sesión 05 - 27-sept-25. ¿Control y sonido?
+- [ ] Sesión 05 - 27-sept-25. [Páginas locales y servicios](./sesiones/s05.md)
 
 ## Bibliotecas
 
@@ -35,6 +33,14 @@ Uso de IA.
 - [Github](https://github.com/)
 - [https://editor.p5js.org/](https://editor.p5js.org/)
 - [CodePen](https://codepen.io/)
+
+## Editores de texto
+
+- [VS Code](https://code.visualstudio.com/)
+- [VSCodium](https://vscodium.com/)https://code.visualstudio.com/
+- [Emacs](https://www.gnu.org/software/emacs/)
+- [Vim](https://www.vim.org/)
+- [Nano](https://www.nano-editor.org/)
 
 ## Pendientes
 
