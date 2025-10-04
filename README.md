@@ -18,7 +18,8 @@ Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, ide
 - [x] Sesión 02 - 06-sept-25. [P5.js y librerías](./sesiones/s02.md)
 - [x] Sesion 03 - 13-sept-25. [Texturas y Pixeles](./sesiones/s03.md)
 - [x] Sesión 04 - 20-sept-25. [Texturas y Pixeles II](./sesiones/s04.md)
-- [ ] Sesión 05 - 27-sept-25. [Páginas locales y servicios](./sesiones/s05.md)
+- [x] Sesión 05 - 27-sept-25. [Páginas locales y servicios](./sesiones/s05.md)
+- [ ] Sesión 06 - 04-oct-25. [Páginas, control y Hydra](./sesiones/s06.md)
 
 ## Bibliotecas
 
@@ -37,7 +38,7 @@ Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, ide
 ## Editores de texto
 
 - [VS Code](https://code.visualstudio.com/)
-- [VSCodium](https://vscodium.com/)https://code.visualstudio.com/
+- [VSCodium](https://vscodium.com/)
 - [Emacs](https://www.gnu.org/software/emacs/)
 - [Vim](https://www.vim.org/)
 - [Nano](https://www.nano-editor.org/)
