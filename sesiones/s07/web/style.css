@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: monospace;
+    overflow: hidden;
+}
+
+#waveform {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+.info {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px;
+    line-height: 1.4;
+}

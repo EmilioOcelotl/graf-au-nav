@@ -19,7 +19,8 @@ Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, ide
 - [x] Sesion 03 - 13-sept-25. [Texturas y Pixeles](./sesiones/s03.md)
 - [x] Sesión 04 - 20-sept-25. [Texturas y Pixeles II](./sesiones/s04.md)
 - [x] Sesión 05 - 27-sept-25. [Páginas locales y servicios](./sesiones/s05.md)
-- [ ] Sesión 06 - 04-oct-25. [Páginas, control y Hydra](./sesiones/s06.md)
+- [x] Sesión 06 - 04-oct-25. [Github pages, control y Hydra](./sesiones/s06.md)
+- [ ] Sesión 07 - 11-oct-25. [Audio, MIDI y pages](./sesiones/s07/s07.md)
 
 ## Bibliotecas
 
@@ -32,7 +33,6 @@ Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, ide
 ## Herramientas
 
 - [Github](https://github.com/)
-- [https://editor.p5js.org/](https://editor.p5js.org/)
 - [CodePen](https://codepen.io/)
 
 ## Editores de texto
@@ -42,12 +42,14 @@ Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, ide
 - [Emacs](https://www.gnu.org/software/emacs/)
 - [Vim](https://www.vim.org/)
 - [Nano](https://www.nano-editor.org/)
+- [https://editor.p5js.org/](https://editor.p5js.org/)
 
 ## Pendientes
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API/Using_the_Gamepad_API
 - https://hydra.ojack.xyz/docs/docs/learning/interactivity/midi/
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API
+- Análisis de imagen 
 
 ## Archivos
 
