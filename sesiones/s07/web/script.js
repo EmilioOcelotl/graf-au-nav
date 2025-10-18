@@ -1,4 +1,5 @@
 // ===== CONFIGURACIÓN GENERAL =====
+// audioctx = contexto de audio de webaudioapi
 document.addEventListener('DOMContentLoaded', async () => {
     let audioContextStarted = false;
     
@@ -18,6 +19,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     const localSamplesPath = './samples/';
     const sampleFiles = ['bass__8_.wav', 'clap__7_.wav', 'cymbal__3_.wav', 'hi_hat__17_.wav'];
     
+    // calidad y tamaño de los archivos aiff wav mp3 ogg 
+
+    // if(key == '1')
+
     // Cargar muestras locales automáticamente
     sampleKeys.forEach((key, index) => {
         const sampleUrl = localSamplesPath + sampleFiles[index];
@@ -138,12 +143,18 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // Mapeo correcto de notas MIDI a escala de Do Mayor
                 const midiToScale = {
                     60: 'C4',  // Do
+                    // 61 : "C# Db"
                     62: 'D4',  // Re
+                    // 63
                     64: 'E4',  // Mi
                     65: 'F4',  // Fa
+                    // 66
                     67: 'G4',  // Sol
+                    // 68
                     69: 'A4',  // La
+                    // 70
                     71: 'B4'   // Si
+                    // 72
                 };
                 
                 const noteName = midiToScale[note];

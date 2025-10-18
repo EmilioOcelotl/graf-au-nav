@@ -20,7 +20,8 @@ Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, ide
 - [x] Sesión 04 - 20-sept-25. [Texturas y Pixeles II](./sesiones/s04.md)
 - [x] Sesión 05 - 27-sept-25. [Páginas locales y servicios](./sesiones/s05.md)
 - [x] Sesión 06 - 04-oct-25. [Github pages, control y Hydra](./sesiones/s06.md)
-- [ ] Sesión 07 - 11-oct-25. [Audio, MIDI y pages](./sesiones/s07/s07.md)
+- [x] Sesión 07 - 11-oct-25. [Audio, Síntesis y MIDI](./sesiones/s07/s07.md)
+- [ ] Sesión 08 - 18-oct-25. [Análisis de Imagen / Audio](./sesiones/s08/s08.md)
 
 ## Bibliotecas
 
