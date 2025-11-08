@@ -22,7 +22,8 @@ Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, ide
 - [x] Sesión 06 - 04-oct-25. [Github pages, control y Hydra](./sesiones/s06.md)
 - [x] Sesión 07 - 11-oct-25. [Audio, Síntesis y MIDI](./sesiones/s07/s07.md)
 - [x] Sesión 08 - 18-oct-25. [Análisis de Imagen / Audio](./sesiones/s08/s08.md)
-- [ ] Sesión 09 - 25-oct-25. [Sonificación / Escenas tridimensionales](./sesiones/s09/s09.md)
+- [x] Sesión 09 - 25-oct-25. [Sonificación / Escenas tridimensionales](./sesiones/s09/s09.md)
+- [ ] Sesión 10 - 08-nov.25. [3d II e intenciones iniciales](./sesiones/s10/s10.md) 
 
 ## Bibliotecas
 

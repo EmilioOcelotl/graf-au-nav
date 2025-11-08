@@ -15,8 +15,8 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 container.appendChild(renderer.domElement);
 
 // Control de cámara (similar a orbitControl() de p5)
-const controls = new THREE.OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true;
+//const controls = new THREE.OrbitControls(camera, renderer.domElement);
+//controls.enableDamping = true;
 
 // Luz ambiental (similar a lights() de p5)
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
@@ -25,6 +25,8 @@ scene.add(ambientLight);
 const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
 directionalLight.position.set(1, 1, 1);
 scene.add(directionalLight);
+
+// pointlight
 
 // Simplex Noise
 const noise = new SimplexNoise();
@@ -46,7 +48,7 @@ for(let i = 0; i < cols; i++){
         );
         
         const material = new THREE.MeshStandardMaterial({ 
-            color: new THREE.Color(0xff0000) 
+            color: new THREE.Color(0xffffff) // RGB > hex 
         });
         
         const cube = new THREE.Mesh(geometry, material);
@@ -73,7 +75,7 @@ function animate(){
             let y = j * 0.01;
             
             // Usar noise 3D con contador (como en p5.js)
-            let n = noise.noise3D(x*5, y*5, contador); // -1 a 1
+            let n = noise.noise3D(x*5, y*5+contador, 0); // -1 a 1
             
             // Mapear de -1,1 a 0,1 (como noise() de p5.js)
             let nNormalized = (n + 1) / 2; // 0 a 1
@@ -88,8 +90,8 @@ function animate(){
         }
     }
 
-    contador += 0.001; // Misma velocidad que p5.js
-    controls.update();
+    contador += 0.01; // Misma velocidad que p5.js
+    // controls.update();
     renderer.render(scene, camera);
 }
 
