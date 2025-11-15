@@ -21,6 +21,7 @@ container.appendChild(renderer.domElement);
 // Luz ambiental (similar a lights() de p5)
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
 scene.add(ambientLight);
+// scene.remove()
 
 const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
 directionalLight.position.set(1, 1, 1);
@@ -38,7 +39,7 @@ const intervaloY = 600 / rows;
 
 // Crear cubos - cada uno con tamaño relativo al espacio
 for(let i = 0; i < cols; i++){
-    cubos[i] = [];
+    cubos[i] = [];0xffffff
     for(let j = 0; j < rows; j++){
         // El cubo ocupa casi todo el espacio disponible (90%)
         const geometry = new THREE.BoxGeometry(
@@ -67,7 +68,7 @@ for(let i = 0; i < cols; i++){
 
 // Animación
 function animate(){
-    requestAnimationFrame(animate);
+    requestAnimationFrame(animate); // detener la animación 
 
     for(let i = 0; i < cols; i++){
         for(let j = 0; j < rows; j++){
@@ -75,13 +76,13 @@ function animate(){
             let y = j * 0.01;
             
             // Usar noise 3D con contador (como en p5.js)
-            let n = noise.noise3D(x*5, y*5+contador, 0); // -1 a 1
+            let n = noise.noise3D(x*5, y*5, contador); // -1 a 1
             
             // Mapear de -1,1 a 0,1 (como noise() de p5.js)
             let nNormalized = (n + 1) / 2; // 0 a 1
             
             // Mapear altura (-100 a 100) como en p5.js
-            let nMap = THREE.MathUtils.mapLinear(nNormalized, 0, 1, -100, 100);
+            let nMap = THREE.MathUtils.mapLinear(nNormalized, 0, 1, -200, 200);
             cubos[i][j].position.z = nMap;
 
             // Color HSB (Hue de 0-1 basado en noise)

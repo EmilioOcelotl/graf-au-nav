@@ -77,10 +77,16 @@ function createPlane(size = 2, widthSegments = 10, heightSegments = 10) {
       const d = i * (heightSegments + 1) + (j + 1);
       indices.push(a, b, d);
       indices.push(b, c, d);
+            /*
+        a ---- d
+        |    / |
+        |  /   |
+        b ---- c
+      */
     }
   }
 
-  const geometry = new THREE.BufferGeometry();
+  const geometry = new THREE.BufferGeometry(); // box, sphere 
   geometry.setAttribute("position", new THREE.Float32BufferAttribute(vertices, 3));
   geometry.setIndex(indices);
   geometry.computeVertexNormals();
