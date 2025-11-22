@@ -25,7 +25,7 @@ Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, ide
 - [x] Sesión 09 - 25-oct-25. [Sonificación / Escenas tridimensionales](./sesiones/s09/s09.md)
 - [x] Sesión 10 - 08-nov-25. [3d II e intenciones iniciales](./sesiones/s10/s10.md) 
 - [x] Sesión 11 - 15-nov-25. [Strudel](./sesiones/s11/s11.md)
-- [ ] Sesión 12 - 22-nov-25. Mensajes y servidor OSC. 
+- [ ] Sesión 12 - 22-nov-25. [Mensajes y servidor OSC](./sesiones/s12/s12.md) 
 
 ## Bibliotecas
 
