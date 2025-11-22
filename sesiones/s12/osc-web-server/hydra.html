@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <script src="https://unpkg.com/hydra-synth"></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;   /* elimina la barra de scroll */
+      background: black;  /* fondo negro en todo el viewport */
+      width: 100%;
+      height: 100%;
+    }
+
+    canvas {
+      display: block;     /* elimina posibles bordes blancos */
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+<script>
+let valorOSC = 0;
+
+// WebSocket local
+const socket = new WebSocket("ws://localhost:8080");
+
+socket.onmessage = (event) => {
+  try {
+    const msg = JSON.parse(event.data);
+    if (msg.address === "/miControl") {
+      valorOSC = msg.args[0];   
+    }
+  } catch(e) { console.error(e); }
+};
+
+// Hydra
+let hydra = new Hydra({ detectAudio: false });
+
+osc(10, () => valorOSC, 1)
+  .modulate(noise(() => valorOSC))
+  .out();
+</script>
+</body>
+</html>

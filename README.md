@@ -34,6 +34,7 @@ Esto quiere decir que aprenderemos cómo subir los resultados a algún lado, ide
 - [Hydra](https://hydra.ojack.xyz/)
 - [Three.js](https://threejs.org/)
 - [D3.js](https://d3js.org/)
+- [Strudel](https://strudel.cc/)
 
 ## Herramientas
 
