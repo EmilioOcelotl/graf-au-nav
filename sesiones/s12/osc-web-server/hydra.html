@@ -36,11 +36,13 @@ socket.onmessage = (event) => {
   } catch(e) { console.error(e); }
 };
 
+console.log(valorOSC) // strudel 
+
 // Hydra
 let hydra = new Hydra({ detectAudio: false });
 
 osc(10, () => valorOSC, 1)
-  .modulate(noise(() => valorOSC))
+  .modulate(noise(10), ()=> valorOSC)
   .out();
 </script>
 </body>
